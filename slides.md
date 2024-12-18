@@ -1,7 +1,7 @@
 ---
 theme: seriph
 layout: cover
-background: /pages/Intro.jpeg
+background: /assets/Intro.jpeg
 transition: slide-left
 ---
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -26,7 +26,7 @@ transition: slide-up
 ---
 transition: slide-left
 layout: image-right
-image: /pages/CampbellSoupCans.jpg
+image: /assets/CampbellSoupCans.jpg
 ---
 
 <style>
@@ -75,7 +75,6 @@ transition: slide-left
 
 ---
 layout: intro
-image: /pages/CampbellSoupCans.jpg
 ---
 # Comedian
 Maurezio Cattelan, 2019
