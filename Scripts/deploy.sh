@@ -35,7 +35,7 @@ fi
 cd "$DIST_BUILD_DIR"
 
 # Generate static files
-npm run build
+npm run build -- --base /Comedian/
 
 # Enter the generated folder
 cd "$DIST_DIR"
