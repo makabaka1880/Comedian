@@ -34,6 +34,7 @@ fi
 # Navigate to the build directory
 cd "$DIST_BUILD_DIR"
 
+rm -rf "DIST_DIR"
 # Generate static files
 npm run build -- --base /Comedian/
 
@@ -48,7 +49,7 @@ fi
 
 # Initialize git and push to the specified branch
 git init
-# git remote add origin "$REPO_URL"
+git remote add origin "$REPO_URL"
 git add -A
 echo "ready to deploy"
 git commit -m 'deploy'
