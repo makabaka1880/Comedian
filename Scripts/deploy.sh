@@ -34,7 +34,7 @@ fi
 # Navigate to the build directory
 cd "$DIST_BUILD_DIR"
 
-rm -rf "DIST_DIR"
+rm -rf dist
 # Generate static files
 npm run build -- --base /Comedian/
 
